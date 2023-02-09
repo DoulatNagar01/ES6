@@ -84,3 +84,29 @@
 //
 
 
+// Question Rotation Number
+// function rotational(number, k){
+//     let num = number;
+//     let count = 0;
+//     let div =1;
+//     let mul =1;
+//     while (num) {
+//       count++;
+//       num = Math.floor(num/10);
+//     }
+//     k = k%count;
+//     if (k<0) {
+//       k += count
+//     }  
+//     for (let i = 1; i <= count; i++) {
+//       if (i<=k) {
+//         div *= 10;
+//       }else{
+//         mul *= 10;
+//       }
+//     }
+//     let q = Math.floor(number/div);
+//     let r = number%div;
+//     return (r*mul+q);
+//   };
+//   console.log(rotational(12345, 4));
